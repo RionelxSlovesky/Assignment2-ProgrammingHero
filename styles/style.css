@@ -154,6 +154,7 @@
 
 .fact-container {
     padding: 0 5vw;
+    margin-bottom: 30vh;
 }
 
 /* fact section */
@@ -195,6 +196,45 @@
 
 .icon-desc {
     color: lightslategray;
+}
+
+/* sponsor section */
+
+.sponsor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5vw;
+    margin-bottom: 30vh;
+}
+
+.sponsor-title {
+    font-size: 1.5em;
+    margin-bottom: 5vh;
+}
+
+.sponsor-desc {
+    color: lightslategray;
+    margin-bottom: 8vh;
+    padding: 0 20vw;
+    text-align: center;
+}
+
+.sponsor-icons-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4vw;
+}
+
+.sponsor-icon {
+    height: 3vw;
+    filter: grayscale(100%);
+}
+
+.rights {
+    text-align: center;
+    color: lightslategray;
+    margin-bottom: 30vh;
 }
 
 
@@ -253,6 +293,10 @@
 
     .fact-icon-container {
         margin-bottom: 5vh;
+    }
+
+    .sponsor-icons-container {
+        flex-direction: column;
     }
 
 }
