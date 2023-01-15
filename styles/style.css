@@ -269,9 +269,12 @@ header {
 
 .rights {
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     background-color: #fd6f0a62;
+    border-radius: 5px;
+    padding: 3px 3px;
     height: 10vh;
     margin: 0 5vw;
     margin-bottom: 15vh;
