@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Varela Round', sans-serif;
 }
 
 /* buttons */
@@ -13,6 +14,14 @@
     font-size: 1em;
     border: 0;
     border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #FFFFFF;
+    color: #FD6E0A;
+    cursor: pointer;
+    padding: 9px 19px;
+    border: 1px solid #FD6E0A;
 }
 
 /* header */
@@ -152,6 +161,7 @@
     width: 100%;
 }
 
+
 .fact-container {
     padding: 0 5vw;
     margin-bottom: 30vh;
@@ -187,6 +197,12 @@
 
 .fact-icon {
     margin-bottom: 10px;
+}
+
+.fact-icon:hover {
+    transform: scale(1.5);
+    transition: transform 1s;
+    cursor: pointer;
 }
 
 .icon-record {
@@ -234,9 +250,29 @@
 .rights {
     text-align: center;
     color: lightslategray;
+    margin-bottom: 15vh;
+}
+
+/* Bonus: contact section */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5vw;
     margin-bottom: 30vh;
 }
 
+.contact-icon:hover {
+    transform: scale(1.25);
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.contact-title {
+    font-size: 1.5em;
+    margin-bottom: 5vh;
+}
 
 
 
