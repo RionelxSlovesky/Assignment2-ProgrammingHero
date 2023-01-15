@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* buttons */
@@ -343,6 +343,8 @@
     }
     #feature-button {
         position: static;
+        height: 100px;
+        width: 180px;
     }
 
 
